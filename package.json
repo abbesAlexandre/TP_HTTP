@@ -1,0 +1,19 @@
+{
+  "name": "undici",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "compare dependencies version with npm registry",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node --test index.test.js"
+  },
+  "author": "abbes alexandre",
+  "license": "ISC",
+  "dependencies": {
+    "semver": "^7.5.2",
+    "tape": "^4.14.0",
+    "tsx": "^3.12.7",
+    "undici": "^5.22.1"
+  }
+}
